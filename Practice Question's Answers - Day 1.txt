@@ -1,0 +1,56 @@
+Q1 )
+
+a: balance should be private because to prevent access from outside(i.e, authorized access)
+
+b: I control deposit and withdrawals using methods like,
+deposit(amount) = checks amount before adding
+withdraw(amount) = verifies before deducting money
+
+so if internal conditions fail, the operations will not be performed
+
+c: Encapsulation help enforce banking rules through,
+hiding data with the help of private access specifiers and forces access only through public methods, so that the ones with proper validations can only be accessed.
+
+===========================================================================================
+
+Q2 )
+
+a: I would use an unchecked exception as it(withdrawal fails due to insufficient balance) is related to RunTimeException(business logic).
+
+
+b: Exceptional Handling is critical because as it provides meaningful messages for the exceptions occurred and it helps us the handle the failures and also help us to prevent program terminations.
+
+
+c: Custom exception improve code quality by making code readable and also clearly explaining what actually went wrong so that it helps in proper handling.
+
+===========================================================================================
+
+Q3 )
+
+a: The common behaviors I would abstract are price, productName.
+
+b: I choose interface because, it tells what to do, so that each different products use these and implement according to their need.
+
+===========================================================================================
+
+Q4 )
+
+Polymorphism is the ability of an object to behave differently at different instance of time.
+
+a: Compile-time Polymorphism: 
+	
+	-> It is the process of binding method declaration with its method implementation 	   which is done by compiler during the compilation.
+	-> It is also called as static/early binding.
+	-> Eg: Achieved using Methodoverloading.
+	-> Realtime Example : Phonepe send button acts differently based on the content we 	   use like if we enter amount it acts like transaction button and if we enter any 	   string content(message) it acts like normal sending message button.
+
+   Run-time Polymorphism: 
+	-> It is the process of binding method declaration with its method implementation 	   during execution which is done by JVM.
+	-> It is also called as Dynamic/Late binding.
+	-> Eg: Achieved using Methodoverriding.
+
+
+b: Runtime polymorphism is achieved using Methodoverriding.
+
+
+c: Runtime polymorphism is important because it allows changing method behavior/implementation during runtime so that we need not to change previous code when we add new code and also enables loose coupling.
