@@ -1,6 +1,6 @@
 Q1 )
 
-a: balance should be private because to prevent access from outside(i.e, authorized access)
+a: balance should be private because to prevent access from outside(i.e, unauthorized access)
 
 b: I control deposit and withdrawals using methods like,
 deposit(amount) = checks amount before adding
@@ -11,7 +11,7 @@ so if internal conditions fail, the operations will not be performed
 c: Encapsulation help enforce banking rules through,
 hiding data with the help of private access specifiers and forces access only through public methods, so that the ones with proper validations can only be accessed.
 
-===========================================================================================
+====================================================================================================================================================================
 
 Q2 )
 
@@ -23,7 +23,7 @@ b: Exceptional Handling is critical because as it provides meaningful messages f
 
 c: Custom exception improve code quality by making code readable and also clearly explaining what actually went wrong so that it helps in proper handling.
 
-===========================================================================================
+====================================================================================================================================================================
 
 Q3 )
 
@@ -31,7 +31,7 @@ a: The common behaviors I would abstract are price, productName.
 
 b: I choose interface because, it tells what to do, so that each different products use these and implement according to their need.
 
-===========================================================================================
+====================================================================================================================================================================
 
 Q4 )
 
